@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my modal project</title>
+    <!-- font awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+     <!-- css -->
+      <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- header -->
+   <header class="hero">
+    <!-- logo -->
+     <div class="logo-container">
+       <p class="logo">D&G Restorant</p> 
+     </div>
+     <!-- end of logo -->
+
+     <!-- buttons -->
+   <div class="button-container">
+    <p><button  type="button" class="btn-menu btn">menu</button></p>
+     <p><button type="button" class="btn-contact btn">contact</button></p>
+
+   </div>
+
+     <!-- end of buttons -->
+
+     <!-- adresse -->
+        <div class="adresse-container">
+            <p class="days">monday - friday 10-23 | saturday 14-02</p>
+            <p class="adresse">42 village St, Accra Ghane</p>
+            <p class="sponsord">powere by <a href="https://www.twitter.com">bangaya diall</a></p>
+        </div>
+      <!-- end of adresse -->
+   </header>
+     <!-- end of header -->
+
+   <!-- menu modal overlay  -->
+  <div class="modal-overlay-menu">
+    <div class="madal-menu-container">
+      <!-- 1111111111111111111111111 -->
+       <div class="starter">
+         <h2>starters</h2>
+         <button class="starter-btn-close">
+          <i class="fas fa-times"></i>
+         </button>
+       </div>
+       <!-- 2222222222222222222222222 -->
+        <div class="foods">
+           <p>potato leaves soup <span class="price">25ghc</span></p>
+           <p>okro stew <span class="price">20ghc</span></p>
+           <p>granut soup <span class="price">30ghc</span></p>
+        </div>
+        <!-- 333333333333333333333333333 -->
+         <div class="main">
+           <h2>Main courses</h2>
+         </div>
+         <!-- 44444444444444444444444 -->
+          <div class="food-2 foods">
+            <p>grilled fish and potatoes <span class="price">35ghc</span></p>
+            <p> fried rice <span class="price">30ghc</span></p>
+            <p>assoreted rice <span class="price">40ghc</span></p>
+            <p>chicken and potatoes <span class="price">45ghc</span></p>
+            <p>deluxe burger <span class="price">45ghc</span></p>
+          </div>
+          <!-- 55555555555555555555555 -->
+          <div class="desserts main">
+            <h2>desserts</h2>
+          </div> 
+          <!-- 66666666666666666666666 -->
+           <div class="food-3 foods">
+              <p>fruit salad <span class="price"> 15ghc</span></p>
+              <p>ice cream <span class="price"> 10ghc</span></p>
+              <p>chocolate cake <span class="price"> 20ghc</span></p>
+              <p> sheese <span class="price"> 25ghc</span></p> 
+           </div>
+    </div>
+  </div>
+  <!-- end of modal menu overlay -->
+   <div class="modal-overlay-contact">
+    <!-- conatiner  -->
+     <div class="container-contact">
+      <!--  -->
+      <div class="contact">
+        <h2>contact</h2>
+        <button class="btn-contact-close">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <!--  -->
+
+      <!-- content -->
+       <div class="content">
+        <h3>reserve a table ask for today's special or just send un a message</h3>
+        <form action="">
+          <input type="text" name="name" placeholder="Name">
+          <textarea name="text" id="" placeholder="message us" rows="5" ></textarea>
+           <button type="submit" class="subm">send message</button>
+        </form>
+       
+       </div>
+       <!-- content -->
+     </div>
+     <!-- end of container -->
+   </div>
+
+  <!-- contact overlay modal -->
+
+
+   <!-- end of contact overlay modal -->
+
+   <!-- javascript -->
+    <script src="./app.js"></script>
+</body>
+</html>
